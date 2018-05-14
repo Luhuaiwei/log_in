@@ -12,7 +12,7 @@ public class MySQLBase {
 		Class.forName("com.mysql.jdbc.Driver");
 		System.out.println("JDBC-ODBC连接成功");
 		Connection con1 = DriverManager.getConnection
-					("jdbc:mysql://localhost:3306/facedb?useSSL=false", "root", "123456");
+					("jdbc:mysql://localhost:3306/facedb?useSSL=false", "root", "admin");
 		long end = System.currentTimeMillis();
 		System.out.println("成功连接数据库");
 		System.out.println("建立连接耗时："+(end - start)+"ms");
